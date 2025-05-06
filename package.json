@@ -1,20 +1,17 @@
 {
   "name": "wistia-scrape",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scrapes video URLs from Wistia embed pages",
   "main": "wistia-scrape.js",
   "scripts": {
-    "deploy": "git add . && git commit -m 'update' && git push",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node wistia-scrape.js",
+    "deploy": "git add . && git commit -m 'update' && git push"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chrome-aws-lambda": "^2.0.0",
-    "puppeteer-core": "^2.0.0"
-  },
-  "devDependencies": {
-    "puppeteer": "^2.0.0",
-    "minimist": ">=0.2.1"
+    "puppeteer-core": "^2.0.0",
+    "minimist": "^1.2.8"
   }
 }
