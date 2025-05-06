@@ -1,0 +1,6 @@
+{
+  "name": "wistia-scraper",
+  "version": "0.1",
+  "buildTag": "latest",
+  "main": "main.js"
+}
